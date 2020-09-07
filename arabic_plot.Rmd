@@ -26,7 +26,10 @@ library(arabicStemR)
 
 ihya <- getURL("https://raw.githubusercontent.com/OpenITI/0525AH/master/data/0505Ghazali/0505Ghazali.IhyaCulumDin/0505Ghazali.IhyaCulumDin.JK000001-ara1")
 
-# Ihya is the one of the most popular books in the Islamic history, written by a scholar, logician, lawyer, theologian Alghazali  (d. 1100 A.D.). The book is on religious ethics still being read by muslims. I calculated the the top 10 used words in the book, but they are mostly stopwords, I didn't anti_join the stopwords to avoid the increase in lines of code.
+# Ihya is the one of the most popular books in the Islamic history, written by a scholar,
+# logician, lawyer, theologian Alghazali  (d. 1100 A.D.). The book is on religious ethics 
+# still being read by muslims. I calculated the the top 10 used words in the book, but they
+# are mostly stopwords, I didn't anti_join the stopwords to avoid the increase in lines of code.
 
 
 # Pre-processes the text
